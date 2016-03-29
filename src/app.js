@@ -1,3 +1,11 @@
 export class App {
-  message = 'Welcome to Aurelia!';
+  configureRouter(config, router){
+    config.title = 'Aurelia';
+    config.map([
+      { route: ['','welcome'],  name: 'welcome',  moduleId: './welcome',  nav: true, title:'Welcome' },
+      { route: 'users',         name: 'users',    moduleId: './users',    nav: true, title:'Github Users' }
+    ]);
+
+    this.router = router;
+  }
 }
