@@ -1,0 +1,20 @@
+html {
+  background: url("http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-120302.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-transform:rotate(270deg);
+-moz-transform:rotate(270deg);
+-o-transform: rotate(270deg);
+-ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+li {
+  float:left;
+}
