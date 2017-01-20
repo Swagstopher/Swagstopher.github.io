@@ -7,43 +7,97 @@
     <link rel="stylesheet" href="public/stylesheets/style.css"/>
     <script type="text/javascript" src="public/javascript/transitions.js"></script>
   </head>
-<body class="background-1">
+<body class="crazy-background">
+<nav>
+<ul>
+<li><t class="manifesto fade-in one">Chris Navy</t></li>
+<li><a href="#" onclick="changePage('hobbies')" class="margin-left-5 margin-right-5 manifesto fade-in two">Hobbies</a></li>
+<li><a href="#" onclick="changePage('contact')" class="margin-left-5 margin-right-5 manifesto fade-in two">Contact</a></li>
+<li><a href="#" onclick="changePage('about')" class="margin-left-5 margin-right-5 manifesto fade-in two">About</a></li>
+<li><a href="#" onclick="changePage('home')" class="margin-left-5 margin-right-5 manifesto fade-in two">Home</a></li>
+</ul>
+</nav>
 
-<div class="background-2 card card-position">
-  <div class="card-inside" style="margin-top:5%;">
-    <div class="flex-grid">
-<div class="col">
-  <img class="margin-left-10 margin-top-10 margin-bottom-10" src="public/assets/images/me.jpg"/>
+<div class="flex-grid" id="home">
+  <div class="col center margin-top-10">
+    <img class="fade-in four" src="public/assets/images/myAvatar.svg" height="300" width="300"/>
+    <h1 class="center manifesto fade-in three">Christopher Navy</h1>
+    <h3 class="center pm-no manifesto fade-in three">Software Engineer</h3>
+    <h5 class="center pm-no manifesto fade-in three">San Francisco, CA</h5>
+  </div>
 </div>
-<div class="col-2 padding-top-5 margin-left-5">
-  <h1 class="scheme-3 Valentina-Regular pm-no">Chris Navy</h1>
-  <h3 class="scheme-4 manifesto pm-no">Software Engineer</h3>
-  <h5 class="scheme-5">Hello my name is Christopher Navy and I'm an aspiring Software Engineer that's currently attending San Jose State University.</h5>
+
+<div class="none" id="about">
+<div class="flex-grid margin-top-10">
+  <div class="col center">
+    <img class="fade-in two" src="public/assets/images/me.jpg"/>
+  </div>
+
+  <div class="col-2">
+    <h1 class="Valentina-Regular fade-in three">Christopher Navy</h1>
+    <h3 class="pm-no Valentina-Regular fade-in one">Software Engineer</h3>
+    <h5 class="pm-no Valentina-Regular fade-in one">San Francisco, CA</h5>
+    <h5 class="Valentina-Regular pm-no fade-in one padding-top-5" style="width:80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus at augue congue ullamcorper. Pellentesque ac leo eu felis dignissim lacinia non eget mi. Cras et mi nisl. Praesent tincidunt congue metus, eu aliquet purus. Cras nec nulla tincidunt, blandit ligula placerat, efficitur nulla. Fusce sit amet metus feugiat, tincidunt ex ut, accumsan tellus. Praesent libero tortor, euismod at mi non, commodo ultricies mauris. Morbi egestas libero dui, vel facilisis arcu congue a.
+</h5>
+  </div>
+
+</div>
+
+
+
+</div>
+
+<div class="none" id="contact">
+  <div class="flex-grid fade-in one margin-top-5">
+    <div class="col-2">
+    </div>
+    <div class="card serv-quick-background col center margin-right-10">
+      Contact Me
+      <h5 class="Valentina-Regular pm-no padding-top-5" style="width:80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus at augue congue ullamcorper. Pellentesque ac leo eu felis dignissim lacinia non eget mi. Cras et mi nisl. Praesent tincidunt congue metus, eu aliquet purus. Cras nec nulla tincidunt, blandit ligula placerat, efficitur nulla. Fusce sit amet metus feugiat, tincidunt ex ut, accumsan tellus. Praesent libero tortor, euismod at mi non, commodo ultricies mauris. Morbi egestas libero dui, vel facilisis arcu congue a.
 
     </div>
-    <div class="col padding-top-5 center">
-      <h2>Contact Me</h2>
-        </div>
-</div>
-</div>
+  </div>
 </div>
 
-<h1> Projects</h1>
+<div class="none" id="hobbies">
+  <div class="flex-grid margin-top-10">
+    <div class="col center">
+      <img class="fade-in two" src="http://www.sportplushealth.com/blog/wp-content/uploads/2016/04/runner-uomo.jpg" style="width: 75%; height: auto;" />
+    </div>
 
-<div class="flex-grid card-position">
+    <div class="col-2">
+      <h1 class="Valentina-Regular fade-in three">Running</h1>
+      <h5 class="Valentina-Regular pm-no fade-in one padding-top-5" style="width:80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus at augue congue ullamcorper. Pellentesque ac leo eu felis dignissim lacinia non eget mi. Cras et mi nisl. Praesent tincidunt congue metus, eu aliquet purus. Cras nec nulla tincidunt, blandit ligula placerat, efficitur nulla. Fusce sit amet metus feugiat, tincidunt ex ut, accumsan tellus. Praesent libero tortor, euismod at mi non, commodo ultricies mauris. Morbi egestas libero dui, vel facilisis arcu congue a.
+  </h5>
+    </div>
 
-<div class="col background-2 card margin-top-5">
-Hello
-</div>
+  </div>
 
-<div class="col background-2 card margin-top-5">
-Hello
-</div>
+  <div class="flex-grid margin-top-10">
+    <div class="col center">
+      <img class="fade-in two" src="https://cdn-co.milespartnership.com/sites/default/master/files/styles/media-player-large/public/TourBiking2_MtEvans_MI.jpg?itok=eLcWoQwj" style="height: auto; width: 75%;"/>
+    </div>
 
-<div class="col background-2 card margin-top-5">
-Hello
-</div>
+    <div class="col-2">
+      <h1 class="Valentina-Regular fade-in three">Biking</h1>
+      <h5 class="Valentina-Regular pm-no fade-in one padding-top-5" style="width:80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus at augue congue ullamcorper. Pellentesque ac leo eu felis dignissim lacinia non eget mi. Cras et mi nisl. Praesent tincidunt congue metus, eu aliquet purus. Cras nec nulla tincidunt, blandit ligula placerat, efficitur nulla. Fusce sit amet metus feugiat, tincidunt ex ut, accumsan tellus. Praesent libero tortor, euismod at mi non, commodo ultricies mauris. Morbi egestas libero dui, vel facilisis arcu congue a.
+  </h5>
+    </div>
 
+  </div>
+
+  <div class="flex-grid margin-top-10">
+    <div class="col center">
+      <img class="fade-in two" src="https://iso.500px.com/wp-content/uploads/2015/06/yoga_cover.jpeg" style="width:75%; height: auto;"/>
+    </div>
+
+    <div class="col-2">
+      <h1 class="Valentina-Regular fade-in three">Yoga</h1>
+      <h5 class="Valentina-Regular pm-no fade-in one padding-top-5" style="width:80%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus at augue congue ullamcorper. Pellentesque ac leo eu felis dignissim lacinia non eget mi. Cras et mi nisl. Praesent tincidunt congue metus, eu aliquet purus. Cras nec nulla tincidunt, blandit ligula placerat, efficitur nulla. Fusce sit amet metus feugiat, tincidunt ex ut, accumsan tellus. Praesent libero tortor, euismod at mi non, commodo ultricies mauris. Morbi egestas libero dui, vel facilisis arcu congue a.
+  </h5>
+    </div>
+
+  </div>
 </div>
 
 </body>
