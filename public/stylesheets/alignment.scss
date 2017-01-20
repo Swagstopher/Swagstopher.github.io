@@ -1,0 +1,98 @@
+.center {
+  text-align: center;
+}
+
+.pm-no{
+  padding:0;
+  margin:0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: none;
+}
+
+.diagonal {
+  z-index: 1;
+  padding: 3em;
+}
+
+.diagonal:before {
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transform-origin: 3% 0;
+  transform-origin: 3% 0;
+  top: 0;
+  left: -25%;
+  z-index: -1;
+  width: 150%;
+  height: 75%;
+  background: inherit;
+}
+
+.card-position {
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+//Margin left
+@for $i from 1 to 20{
+  .margin-left-#{$i * 5}{
+    margin-left: $i * 5%;
+  }
+}
+
+//Margin top
+@for $i from 1 to 20{
+  .margin-top-#{$i * 5}{
+    margin-top: $i * 5%;
+  }
+}
+
+//Margin Right
+@for $i from 1 to 20{
+  .margin-right-#{$i * 5}{
+    margin-right: $i * 5%;
+  }
+}
+
+//Margin Bottom
+@for $i from 1 to 20{
+  .margin-bottom-#{$i * 5}{
+    margin-bottom: $i * 5%;
+  }
+}
+
+//Padding left
+@for $i from 1 to 20{
+  .padding-left-#{$i * 5}{
+    padding-left: $i * 5%;
+  }
+}
+
+//Padding top
+@for $i from 1 to 20{
+  .padding-top-#{$i * 5}{
+    padding-top: $i * 5%;
+  }
+}
+
+//Padding Right
+@for $i from 1 to 20{
+  .padding-right-#{$i * 5}{
+    padding-right: $i * 5%;
+  }
+}
+
+//Padding Bottom
+@for $i from 1 to 20{
+  .padding-bottom-#{$i * 5}{
+    padding-bottom: $i * 5%;
+  }
+}
+
+h1 {
+  margin: 0;
+}

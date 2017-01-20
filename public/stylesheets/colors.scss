@@ -1,0 +1,28 @@
+$color-schemes: #6699CC, #FFF275, #FF8C42, #FF3C38, #A23E48;
+
+@for $i from 1 to 6{
+  .scheme-#{$i}{
+    color: nth($color-schemes, $i);
+  }
+}
+
+@for $i from 1 to 6{
+  .background-#{$i}{
+    background-color: nth($color-schemes, $i);
+  }
+}
+
+.crazy-background {
+  background: #D38312; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #D38312 , #A83279); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #D38312 , #A83279); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.serv-quick-background {
+
+
+background: #485563; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}

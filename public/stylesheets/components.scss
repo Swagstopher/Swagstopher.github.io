@@ -1,0 +1,35 @@
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  display: inline;
+  float: right;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
